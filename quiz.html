@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tina, Vivian, Millor, Jennifer">
+    <meta name="info-340-final-moodbuddy" content="a website of virtual pet that log your mood">
+    <title>MoodyBuddy</title>
+    <link rel="icon" type="image/png" href="img/paw.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <header>
+      <nav id="nav-bar">
+        <img src="img/title.png" alt="MoodyBuddy Title">
+        <button id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></button>
+        <button class="nav-button">Daily Check-in</button>
+        <button class="nav-button">Your Puppy</button>
+        <button class="nav-button">Mood Log</button>
+        <button class="nav-button">Puppy List</button>
+      </nav>
+    </header>
+    <main>
+      <!-- Need to find a way record everything & connect these info w/ submit btn -->
+      <!-- Left side page content -->
+      <section id="quiz-container" class="container">
+        <section id="quiz-left-side">
+        </section>
+        <section id="quiz-right-side">
+          <form class="form">
+            <section id="question1" class="question">
+              <h2>How was your day?</h2>
+              <section id="day-selection" class="quiz-icon-sections">
+                <label>
+                  <input type="radio" name="day" value="1" class="hidden">
+                  <img src="img/emojis/gray-face5.png" alt="This is a happy face - choosing this means users are happy and joyful, at the happiest end of the spectrum." id="face1">
+                </label>
+                <label>
+                  <input type="radio" name="day" value="2" class="hidden">
+                  <img src="img/emojis/gray-face4.png" alt="This is a smiling face - satisfaction, slightly below joy." id="face2">
+                </label>
+                <label>
+                  <input type="radio" name="day" value="3" class="hidden">
+                  <img src="img/emojis/gray-face3.png" alt="This is an okay face - calm, means users are at a state of peacefulness." id="face3">
+                </label>
+                <label>
+                  <input type="radio" name="day" value="4" class="hidden">
+                  <img src="img/emojis/gray-face2.png" alt="This is a sad face - sadness/disappointment, the second saddest emotion." id="face4">
+                </label>
+                <label>
+                  <input type="radio" name="day" value="5" class="hidden">
+                  <img src="img/emojis/gray-face1.png" alt="This is a crying face - the saddest end of the spectrum." id="face5">
+                </label>
+              </section>
+            </section><br>
+        
+            <section id="question2" class="question">
+              <h2>How well did you sleep?</h2>
+              <section id="sleep-selection" class="quiz-icon-sections">
+                <label>
+                  <input type="radio" name="sleep" value="1" class="hidden">
+                  <img src="img/emojis/gray-circle1.png" alt="This is an empty circle" class="circle1">
+                </label>
+                <label>
+                  <input type="radio" name="sleep" value="2" class="hidden">
+                  <img src="img/emojis/gray-circle2.png" alt="This is a 20% full circle" class="circle2">
+                </label>
+                <label>
+                  <input type="radio" name="sleep" value="3" class="hidden">
+                  <img src="img/emojis/gray-circle3.png" alt="This is a 40% full circle" class="circle3">
+                </label>
+                <label>
+                  <input type="radio" name="sleep" value="4" class="hidden">
+                  <img src="img/emojis/gray-circle4.png" alt="This is a 60% full circle" class="circle4">
+                </label>
+                <label>
+                  <input type="radio" name="sleep" value="5" class="hidden">
+                  <img src="img/emojis/gray-circle5.png" alt="This is a full circle" class="circle5">
+                </label>
+              </section>
+            </section><br>
+        
+            <section id="question3" class="question">
+              <h2>How motivated are you?</h2>
+              <section id="motivation-selection" class="quiz-icon-sections">
+                <label>
+                  <input type="radio" name="motivation" value="1" class="hidden">
+                  <img src="img/emojis/gray-circle1.png" alt="This is an empty circle" class="circle1">
+                </label>
+                <label>
+                  <input type="radio" name="motivation" value="2" class="hidden">
+                  <img src="img/emojis/gray-circle2.png" alt="This is a 20% full circle" class="circle2">
+                </label>
+                <label>
+                  <input type="radio" name="motivation" value="3" class="hidden">
+                  <img src="img/emojis/gray-circle3.png" alt="This is a 40% full circle" class="circle3">
+                </label>
+                <label>
+                  <input type="radio" name="motivation" value="4" class="hidden">
+                  <img src="img/emojis/gray-circle4.png" alt="This is a 60% full circle" class="circle4">
+                </label>
+                <label>
+                  <input type="radio" name="motivation" value="5" class="hidden">
+                  <img src="img/emojis/gray-circle5.png" alt="This is a full circle" class="circle5">
+                </label>
+              </section>
+            </section><br>
+        
+            <label for="thankful">What is something or someone that you feel thankful for today?</label><br>
+            <input type="text" id="thankful" name="thankful"><br>
+        
+            <label for="daily-note">Daily Note</label><br>
+            <input type="text" id="daily-note" name="daily-note" value="Hiii"><br><br>
+        
+            <input type="submit" value="Submit" class="button">
+          </form>
+        </section>
+        
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Winter INFO 340 Group DayUp</p>
+      <p>Contact Info: INFO 340 Instructor: Joel Ross</p>
+    </footer>
+  </body>
+</html>

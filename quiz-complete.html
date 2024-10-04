@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tina, Vivian, Millor, Jennifer">
+    <meta name="info-340-final-moodbuddy" content="a website of virtual pet that logs your mood">
+    <title>MoodyBuddy</title>
+    <link rel="icon" type="image/png" href="img/paw.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <!-- Ensure you include FontAwesome or another icon library if needed -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- nav bar -->
+    <header>
+      <nav id="nav-bar">
+        <img src="img/title.png" alt="MoodyBuddy Title">
+        <button id="hamburger-menu"><a href="#"><i class="fa fa-bars" aria-label="menu"></i></a></button>
+        <button class="nav-button">Daily Check-in</button>
+        <button class="nav-button">Your Puppy</button>
+        <button class="nav-button">Mood Log</button>
+        <button class="nav-button">Puppy List</button>
+      </nav>
+    </header>
+    <main>
+      <section id="quiz-completion-page">
+        <h1>Congratulations on completing today's check-in!</h1>
+        <h2>Here is your today's MoodyBuddy!</h2>
+        <img src="img/doog 1.png" alt="A cute pixel art Shiba Inu" class="main">
+        <p id="dog-breed">dog breed</p>
+        <section class="name-input-container">
+          <input type="text" id="dog-name-input" placeholder="Name">
+          <button id="submit-name">Submit</button>
+        </section>
+        <p id="name-display" class="quote"></p>
+        <p class="quote">
+          Remember, even on tough days, I'm here to wag my tail and remind you that brighter moments are just around the corner.
+          You're doing great!
+        </p>
+        <button class="back-button">Back To Home</button>
+      </section>
+    </main>
+    <footer>
+      <p>© 2024 Winter INFO 340 Group DayUp</p>
+      <p>Contact Info: INFO 340 Instructor: Joel Ross</p>
+    </footer>
+
+    <script>
+      document.getElementById('submit-name').addEventListener('click', function() {
+        const nameInput = document.getElementById('dog-name-input').value;
+        const nameDisplay = document.getElementById('name-display');
+        nameDisplay.textContent = `Your MoodyBuddy's name is ${nameInput}`;
+      });
+    </script>
+  </body>
+</html>

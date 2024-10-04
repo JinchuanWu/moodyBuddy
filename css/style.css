@@ -1,0 +1,497 @@
+/* CSS */
+
+/* Page 1.a - Home Page */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar {
+  display: flex;
+  background-color: #FFBE6D;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+#nav-bar img {
+  max-height: 50px;
+  margin-right: auto;
+}
+
+.nav-button {
+  display: none;
+}
+
+#hamburger-menu {
+  display: block;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: black;
+}
+
+#home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../img/home-bg.png"); */
+  background-size: cover;
+  padding-top: 70px;
+  margin-top: 10em;
+}
+
+#home-page img {
+  max-width: 40%;
+  padding: 20px 50px;
+}
+
+#home-page .button {
+  padding: 20px;
+  background-color: #FFBE6D;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+
+/* Page 1.b - Quiz Page */
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+#quiz-left-side, #quiz-right-side {
+  margin: 50px 100px;
+}
+
+.question, .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.quiz-icon-sections img {
+  max-height: 50px;
+}
+
+/* can't make the hover work for now - debug
+#face1:hover {
+  background-image: url('img/emojis/color-face1.png');
+} */
+
+/* Page 1.c - quiz completion page */
+#quiz-completion-page {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#quiz-completion-page h1,
+#quiz-completion-page h2 {
+  font-weight: normal;
+}
+
+#quiz-completion-page img.main {
+  width: 20%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.name-input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.name-input-container input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.name-input-container input:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.name-input-container input::placeholder {
+  font-style: italic;
+  color: #888;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+.back-button {
+  background-color: #f9a825;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.back-button:hover {
+  background-color: black;
+}
+
+/* media query for larger screens */
+@media (min-width: 598px) {
+  #hamburger-menu {
+    display: none;
+  }
+
+  .nav-button {
+    display: flex; /* Show nav buttons */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: black;
+  }
+
+  .nav-button:hover {
+  text-decoration: underline;
+ }
+
+  #home-page img {
+    max-width: 25%;
+  }
+
+  .quiz-icon-sections img {
+    max-height: 100%;
+  }
+}
+
+/* media query 2 */
+@media (min-width: 992px) {
+  #quiz-container {
+    flex-direction: row;
+  }
+}
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 5%;
+}
+
+
+/* Page 2 - Your Puppy Page */
+#your-puppy-page .container {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+#your-puppy-page .container img {
+  width: 400px;
+  height: 350px;
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
+
+#your-puppy-page .container .btn1,.btn2 {
+  position: relative;
+  top: 50%;
+  left: 23%;
+  background-color: #FFBE6D;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+#your-puppy-page .btn1:hover,.btn2:hover {
+  background-color: #FF9595;
+}
+
+#your-puppy-page .cake {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: -400px;
+  left: 450px;
+}
+
+#your-puppy-page .heart {
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: -330px;
+  left: 430px;
+}
+
+#your-puppy-page h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* Page 3 - Mood Log */
+#mood-log-container {
+  margin-top: 10em;
+}
+
+.mood-tracker-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: space-between;
+}
+.date-box {
+  background-color: #FDBA74;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+  text-align: center;
+  min-width: 100px;
+}
+.mood-indicators {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+}
+.mood-indicator {
+  background-color: #FFCDB2;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+.indicator-label {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 0.9em;
+  color: #333;
+}
+.mood-note {
+  flex-grow: 2;
+  border: 2px solid #000;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1em;
+  outline: none;
+  min-width: 250px;
+}
+
+/* Page 4 - Puppy collection page*/
+
+#puppy-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+.puppy-card {
+  background-color: #fff;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 10px;
+  border-width: 0.3em;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+.puppy-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.puppy-card h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.puppy-card p.dog-breed {
+  font-size: 1em;
+  color: #555;
+}
+
+#search-container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/* search filter function */
+#search-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+#search-input:focus {
+  border-color: #FDBA74;
+}
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #FDBA74;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+#search-button:hover {
+  background-color: #FDBA74;
+}
+
+
+/* MEDIA QUERIES (page 2, 3, 4)
+
+
+/* media query 2 */
+/*
+@media (min-width: 768px) {
+  #nav-bar h1 {
+    font-size: 35px;
+    color: white;
+  }
+
+  #your-puppy-page .container img {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+  }
+
+  #your-puppy-page .container .btn1,.btn2 {
+    position: relative;
+    left: 55%;
+    font-size: 15px;
+    padding: 13px 25px;
+    margin: 20px;
+  }
+
+  #your-puppy-page .cake {
+    width: 70px;
+    height: 40px;
+    position: relative;
+    top: -500px;
+    left: 600px;
+  }
+
+  #your-puppy-page .heart {
+    width: 70px;
+    height: 40px;
+    position: relative;
+    top: -450px;
+    left: 580px;
+  }
+}
+*/
+
+/* media query 3 */
+/*
+@media (min-width: 1200px) {
+  #nav-bar h1 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  #your-puppy-page .container img {
+    width: 600px;
+    height: 550px;
+    position: relative;
+    top: 50%;
+    left: 60%;
+  }
+
+  #your-puppy-page .container .btn1,.btn2 {
+    position: relative;
+    left: 90%;
+    font-size: 20px;
+    padding: 16px 30px;
+    margin: 30px;
+  }
+
+  #your-puppy-page .cake {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: -600px;
+    left: 800px;
+  }
+
+  #your-puppy-page .heart {
+    width: 100px;
+    height: 70px;
+    position: relative;
+    top: -550px;
+    left: 780px;
+  }
+}
+*/
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  padding: 14px 20px;
+}
+
+.navbar-item a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-item a:hover {
+  background-color: #ddd;
+  color: black;
+}

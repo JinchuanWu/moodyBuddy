@@ -1,0 +1,25 @@
+h1 {
+    color: rgb(245, 104, 245);
+    font-size: 40px;
+ }
+
+h2 {
+    color: rgb(251, 145, 251);
+}
+
+h3 {
+    color :rgb(248, 177, 248);
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #f2f2f2;
+margin: 20px;
+padding: 20px;
+}
