@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Spike",
+    "breed": "Chihuahua",
+    "emotion": "Feisty",
+    "score": 3,
+    "image": "img/Chihuahua.png",
+    "quote": "Be bold and fearless! Your energy can conquer any challenge."
+  },
+  {
+    "id": 2,
+    "name": "Pepper",
+    "breed": "Schnauzer",
+    "emotion": "Spirited",
+    "score": 4,
+    "image": "img/Schnauzer.png",
+    "quote": "Keep your spirits high! Your enthusiasm is inspiring."
+  },
+  {
+    "id": 3,
+    "name": "Bubbles",
+    "breed": "Pug",
+    "emotion": "Playful",
+    "score": 5,
+    "image": "img/Pug.png",
+    "quote": "Never forget to have fun! Life is an adventure, enjoy every moment."
+  },
+  {
+    "id": 4,
+    "name": "Tank",
+    "breed": "Bulldog",
+    "emotion": "Stubborn",
+    "score": 6,
+    "image": "img/Bulldog.png",
+    "quote": "Stay determined, just like me! Persistence leads to great achievements."
+  },
+  {
+    "id": 5,
+    "name": "Peanut",
+    "breed": "French Bulldog",
+    "emotion": "Comical",
+    "score": 7,
+    "image": "img/French Bulldog.png",
+    "quote": "Laughter is the best medicine. Keep smiling and make the world a happier place."
+  },
+  {
+    "id": 6,
+    "name": "Kuma",
+    "breed": "Shiba Inu",
+    "emotion": "Independent",
+    "score": 8,
+    "image": "img/Shiba Inu.png",
+    "quote": "Embrace your independence. You're strong and capable on your own."
+  },
+  {
+    "id": 7,
+    "name": "Rex",
+    "breed": "German Shepherd",
+    "emotion": "Alert",
+    "score": 9,
+    "image": "img/German Shepherd.png",
+    "quote": "Stay vigilant and ready. You're capable of handling anything that comes your way."
+  },
+  {
+    "id": 8,
+    "name": "Buddy",
+    "breed": "Golden Retriever",
+    "emotion": "Joyful",
+    "score": 10,
+    "image": "img/Golden Retriever.png",
+    "quote": "Spread joy wherever you go, just like me! Your happiness is contagious."
+  },
+  {
+    "id": 9,
+    "name": "Hachi",
+    "breed": "Akita",
+    "emotion": "Loyal",
+    "score": 11,
+    "image": "img/Akita.png",
+    "quote": "Loyalty is a rare treasure. Your steadfastness is deeply valued."
+  },
+  {
+    "id": 10,
+    "name": "Apollo",
+    "breed": "Great Dane",
+    "emotion": "Gentle",
+    "score": 12,
+    "image": "img/Great Dane.png",
+    "quote": "Gentleness is a strength. Your kindness makes the world a better place."
+  },
+  {
+    "id": 11,
+    "name": "Moose",
+    "breed": "Saint Bernard",
+    "emotion": "Calm",
+    "score": 13,
+    "image": "img/Saint Bernard.png",
+    "quote": "Stay calm and composed. Your tranquility brings peace to those around you."
+  },
+  {
+    "id": 12,
+    "name": "Max",
+    "breed": "Labrador Retriever",
+    "emotion": "Friendly",
+    "score": 14,
+    "image": "img/Labrador Retriever.png",
+    "quote": "Friendship is a wonderful gift. Spread kindness and make someone's day!"
+  },
+  {
+    "id": 13,
+    "name": "Kuma",
+    "breed": "Shiba Inu",
+    "emotion": "Independent",
+    "score": 15,
+    "image": "img/Shiba Inu.png",
+    "quote": "Stay true to yourself. Your independence is your strength."
+  }
+]

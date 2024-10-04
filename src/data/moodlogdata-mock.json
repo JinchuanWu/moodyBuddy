@@ -1,0 +1,42 @@
+[
+    {
+      "date": "2024-04-01",
+      "mood": 4,
+      "sleep": 5,
+      "motivation": 4,
+      "thankful": "Grateful for the supportive friends.",
+      "daily_note": "Feeling positive and ready to tackle new challenges."
+    },
+    {
+      "date": "2024-04-02",
+      "mood": 3,
+      "sleep": 3,
+      "motivation": 3,
+      "thankful": "Thankful for a productive meeting.",
+      "daily_note": "Focused on completing pending tasks."
+    },
+    {
+      "date": "2024-04-03",
+      "mood": 5,
+      "sleep": 4,
+      "motivation": 5,
+      "thankful": "Grateful for a relaxing evening walk.",
+      "daily_note": "Excited to start a new project."
+    },
+    {
+      "date": "2024-04-04",
+      "mood": 2,
+      "sleep": 2,
+      "motivation": 2,
+      "thankful": "Thankful for understanding coworkers.",
+      "daily_note": "Feeling a bit down, but pushing through."
+    },
+    {
+      "date": "2024-04-05",
+      "mood": 4,
+      "sleep": 4,
+      "motivation": 3,
+      "thankful": "Grateful for a delicious homemade meal.",
+      "daily_note": "Maintaining a steady pace at work."
+    }
+  ]

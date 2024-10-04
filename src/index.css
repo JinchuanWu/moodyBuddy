@@ -1,0 +1,572 @@
+/* CSS */
+
+
+/* navBar(header) */
+.active {
+  color: #885B23;
+  background-color: transparent;
+}
+.navButtonSmall nav {
+  flex-direction: column;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: none;
+  width: 100%;
+  margin-bottom: 0.25rem;
+  flex-direction: column;
+}
+nav ul.open {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin: 0.2 0.5rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #885B23;
+}
+
+nav .menu {
+  display:flex;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2rem;
+  height: 1.5rem;
+}
+
+nav .menu span {
+  height: 0.3rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.2rem;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#navBar {
+  display: flex;
+  background-color: #FFBE6D;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+#navBar img {
+  max-height: 50px;
+  margin-right: auto;
+}
+
+/* Page 1.a - Home Page */
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+#home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("../img/home-bg.png"); */
+  background-size: cover;
+  padding-top: 70px;
+  margin-top: 10em;
+}
+
+#home-page img {
+  max-width: 40%;
+  padding: 20px 50px;
+}
+
+.button {
+  padding: 20px;
+  background-color: #FFBE6D;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+
+
+/* Page 1.b - Quiz Page */
+#quiz-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+}
+
+
+#quiz-left-side, #quiz-right-side {
+  margin: 50px 100px;
+}
+
+
+.question, .form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+
+.quiz-icon-sections img {
+  max-height: 50px;
+}
+
+#quiz-container .button {
+  padding: 20px;
+  background-color: #FFBE6D;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.text-box {
+  width: 80%;
+  height: 100px;
+}
+
+#next-step-container {
+  margin-top: 20px;
+}
+
+/* Page 1.c - quiz completion page */
+#quiz-completion-page {
+  text-align: center;
+  margin-top: 10%;
+}
+
+#quiz-completion-page h1,
+#quiz-completion-page h2 {
+  font-weight: normal;
+}
+
+#quiz-completion-page img.main {
+  width: 20%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.name-input-container {
+  display: inline-block;
+  position: relative;
+}
+
+.name-input-container input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+.name-input-container input:focus {
+  outline: none;
+  border-color: #888;
+}
+
+.name-input-container input::placeholder {
+  font-style: italic;
+  color: #888;
+}
+
+.quote {
+  font-style: italic;
+  color: #555;
+  margin: 20px 0;
+}
+
+#quiz-completion-page .button {
+  padding: 20px;
+  background-color: #FFBE6D;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+/* can't make the hover work for now - debug
+#face1:hover {
+background-image: url('img/emojis/color-face1.png');
+} */
+
+
+/* media query for larger screens */
+@media (min-width: 598px) {
+  nav .menu {
+    display: none;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction:row;
+  }
+
+  .navButtonSmall nav {
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul li a {
+    margin: 0 0.5rem;
+  }
+
+  #home-page img {
+    max-width: 25%;
+  }
+
+  .quiz-icon-sections img {
+    max-height: 100%;
+  }
+}
+
+
+
+
+/* media query 2 */
+@media (min-width: 992px) {
+  #quiz-container {
+    flex-direction: row;
+  }
+}
+
+
+/* footer */
+footer {
+  text-align: center;
+  font-size: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  margin-top: 5%;
+}
+
+
+
+/* ING! ... */
+
+
+
+
+/* Page 2 - Your Puppy Page */
+#your-puppy-page .center {
+  display: flex;
+  justify-content: center;
+}
+
+
+#your-puppy-page .container {
+  position: relative;
+  max-width: 400px;
+}
+
+
+#your-puppy-page .container img {
+  width: 400px;
+  height: 350px;
+  top: 50%;
+  left: 20%;
+}
+
+
+#your-puppy-page .container .btn1,.btn2 {
+  background-color: #FFBE6D;
+  font-size: 12px;
+  padding: 10px 20px;
+  border-radius: 1rem;
+  font-weight: bolder;
+  margin: 10px;
+}
+
+
+#your-puppy-page .btn1:hover,.btn2:hover {
+  background-color: #FF9595;
+}
+
+
+#your-puppy-page .cake {
+  width: 20px;
+  height: 10px;
+  position: relative;
+}
+
+
+#your-puppy-page .heart {
+  position: relative;
+  top: 60px;
+  left: -20px;
+}
+
+
+#your-puppy-page h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+/* media query for larger screens */
+@media (min-width: 598px) {
+  #your-puppy-page .container img {
+    width: 500px;
+    height: 450px;
+    left: 40%;
+  }
+
+
+  #your-puppy-page .container .btn1,.btn2 {
+    left: 55%;
+    font-size: 15px;
+    padding: 13px 25px;
+    margin: 20px;
+  }
+}
+
+
+/* media query 2 */
+@media (min-width: 992px) {
+  #nav-bar h1 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+
+  #your-puppy-page .container img {
+    width: 600px;
+    height: 550px;
+    top: 50%;
+    left: 60%;
+  }
+
+  #your-puppy-page .container .btn1,.btn2 {
+    left: 90%;
+    font-size: 20px;
+    padding: 16px 30px;
+    margin: 30px;
+  }
+}
+
+
+/* Page 3 - Mood Log */
+.moodlog-container {
+margin-top: 100px;
+}
+
+.mood-card {
+display: flex;
+align-items: center;
+width: 100%;
+background-color: rgb(255, 255, 255);
+padding: 15px 20px;
+margin: 10px 0;
+border-radius: 10px;
+border-color: black;
+border-width: 0.5em;
+}
+
+.date-box {
+flex: 1;
+text-align: center;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+.mood-details {
+display: flex;
+flex: 2;
+justify-content: space-around;
+align-items: center;
+}
+
+.mood-icon, .sleep-icon, .motivation-icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 1em;
+}
+.note-box {
+flex: 3;
+padding: 0 10px;
+font-size: 1.1em;
+}
+
+@media (min-width: 598px) {
+.mood-tracker-item {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.date-box, .mood-details, .note-box {
+    text-align: left;
+    width: 100%;
+}
+
+.date-box {
+    font-size: 1.2em;
+}
+
+.mood-details {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.note-box {
+    padding: 10px 0;
+}
+
+.mood-icon img, .sleep-icon img, .motivation-icon img {
+    width: 30px;
+    height: 30px;
+}
+}
+
+@media (min-width: 992px) {
+.mood-tracker-item {
+    flex-direction: row;
+    align-items: center;
+}
+
+.date-box {
+    font-size: 1.5em;
+}
+
+.mood-details {
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.note-box {
+    padding: 0 20px;
+}
+
+.mood-icon img, .sleep-icon img, .motivation-icon img {
+    width: 40px;
+    height: 40px;
+}
+}
+
+
+
+/* Page 4 - Puppy collection page*/
+
+
+#puppy-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+
+.puppy-card {
+  background-color: #fff;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 10px;
+  border-width: 0.3em;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+}
+
+
+.puppy-card img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+
+
+.puppy-card h1 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+
+.puppy-card p.dog-breed {
+  font-size: 1em;
+  color: #555;
+}
+
+
+#search-container {
+  text-align: center;
+  margin-top: 10%;
+}
+
+
+/* search filter function */
+#search-input {
+  padding: 10px;
+  width: 300px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+#search-input:focus {
+  border-color: #FDBA74;
+}
+
+
+#search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #FDBA74;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+
+#search-button:hover {
+  background-color: #FDBA74;
+}
+
+
+
+/* Login/Signup page */
+.auth-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: white;
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "breed": "Golden Retriever",
+    "emotion": "Joyful",
+    "image": "img/Golden Retriever.png",
+    "quote": "Spread joy wherever you go, just like me! Your happiness is contagious."
+  },
+  {
+    "id": 2,
+    "name": "Sunny",
+    "breed": "Golden Retriever",
+    "emotion": "Joyful",
+    "image": "img/Golden Retriever.png",
+    "quote": "Sunny days are ahead, keep shining brightly!"
+  },
+  {
+    "id": 3,
+    "name": "Tank",
+    "breed": "Bulldog",
+    "emotion": "Stubborn",
+    "image": "img/Bulldog.png",
+    "quote": "Stay determined, just like me! Persistence leads to great achievements."
+  },
+  {
+    "id": 4,
+    "name": "Max",
+    "breed": "Labrador Retriever",
+    "emotion": "Friendly",
+    "image": "img/Labrador Retriever.png",
+    "quote": "Friendship is a wonderful gift. Spread kindness and make someone's day!"
+  },
+  {
+    "id": 5,
+    "name": "Bubbles",
+    "breed": "Pug",
+    "emotion": "Playful",
+    "image": "img/Pug.png",
+    "quote": "Never forget to have fun! Life is an adventure, enjoy every moment."
+  },
+  {
+    "id": 6,
+    "name": "Peanut",
+    "breed": "French Bulldog",
+    "emotion": "Comical",
+    "image": "img/French Bulldog.png",
+    "quote": "Laughter is the best medicine. Keep smiling and make the world a happier place."
+  },
+  {
+    "id": 7,
+    "name": "Rex",
+    "breed": "German Shepherd",
+    "emotion": "Alert",
+    "image": "img/German Shepherd.png",
+    "quote": "Stay vigilant and ready. You're capable of handling anything that comes your way."
+  },
+  {
+    "id": 8,
+    "name": "Kuma",
+    "breed": "Shiba Inu",
+    "emotion": "Independent",
+    "image": "img/Shiba Inu.png",
+    "quote": "Embrace your independence. You're strong and capable on your own."
+  },
+  {
+    "id": 9,
+    "name": "Apollo",
+    "breed": "Great Dane",
+    "emotion": "Gentle",
+    "image": "img/Great Dane.png",
+    "quote": "Gentleness is a strength. Your kindness makes the world a better place."
+  },
+  {
+    "id": 10,
+    "name": "Spike",
+    "breed": "Chihuahua",
+    "emotion": "Feisty",
+    "image": "img/Chihuahua.png",
+    "quote": "Be bold and fearless! Your energy can conquer any challenge."
+  },
+  {
+    "id": 11,
+    "name": "Pepper",
+    "breed": "Schnauzer",
+    "emotion": "Spirited",
+    "image": "img/Schnauzer.png",
+    "quote": "Keep your spirits high! Your enthusiasm is inspiring."
+  },
+  {
+    "id": 12,
+    "name": "Moose",
+    "breed": "Saint Bernard",
+    "emotion": "Calm",
+    "image": "img/Saint Bernard.png",
+    "quote": "Stay calm and composed. Your tranquility brings peace to those around you."
+  },
+  {
+    "id": 13,
+    "name": "Hachi",
+    "breed": "Akita",
+    "emotion": "Loyal",
+    "image": "img/Akita.png",
+    "quote": "Loyalty is a rare treasure. Your steadfastness is deeply valued."
+  },
+  {
+    "id": 14,
+    "name": "Daisy",
+    "breed": "Golden Retriever",
+    "emotion": "Joyful",
+    "image": "img/Golden Retriever.png",
+    "quote": "Bring joy to every moment, just like a ray of sunshine!"
+  },
+  {
+    "id": 15,
+    "name": "Ziggy",
+    "breed": "Pug",
+    "emotion": "Playful",
+    "image": "img/Pug.png",
+    "quote": "Playfulness keeps the heart young. Enjoy life's simple pleasures!"
+  },
+  {
+    "id": 16,
+    "name": "Waffles",
+    "breed": "French Bulldog",
+    "emotion": "Comical",
+    "image": "img/French Bulldog.png",
+    "quote": "Keep the laughter alive. Your humor brightens the darkest days."
+  },
+  {
+    "id": 17,
+    "name": "Scout",
+    "breed": "German Shepherd",
+    "emotion": "Alert",
+    "image": "img/German Shepherd.png",
+    "quote": "Stay alert and focused. You're ready to face any obstacle."
+  },
+  {
+    "id": 18,
+    "name": "Bear",
+    "breed": "Saint Bernard",
+    "emotion": "Calm",
+    "image": "img/Saint Bernard.png",
+    "quote": "Calmness is your superpower. Your presence brings comfort and ease."
+  },
+  {
+    "id": 19,
+    "name": "Samurai",
+    "breed": "Akita",
+    "emotion": "Loyal",
+    "image": "img/Akita.png",
+    "quote": "Loyalty is a noble quality. Stand by those you care about."
+  },
+  {
+    "id": 20,
+    "name": "Zeus",
+    "breed": "Great Dane",
+    "emotion": "Gentle",
+    "image": "img/Great Dane.png",
+    "quote": "Your gentleness is a gift. Spread kindness wherever you go."
+  }
+]
